@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Assessment</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <p class="navbar-item">TRIPS</p>
+        <p class="navbar-item">RECENTLY VIEWED</p>
+        <p class="navbar-item">BOOKINGS</p>
+        <img src="./assets/profile picture.jpeg" alt="profile" class="profile"/>
+      </div>
+      <hr />
+      <div class="section-1">
+        <div class="payment-info">
+          <h3>Payment Information</h3>
+          <p class="gray-info">Choose your method of payment.</p>
+          <div class="card">
+            <h6 class="card-number-title">CARD NUMBER</h6>
+            <h6 class="card-number">4324 5433 9382 1030</h6>
+            <img
+              src="./assets/undefined - Imgur (1).png"
+              alt="indicator"
+              class="indicator"
+            />
+            <img src="./assets/csJj7iF.png" alt="chip" class="chip" />
+            <h6 class="card-number-title">EXPIRATION DATE</h6>
+            <h6 class="card-number-title">03/24</h6>
+            <h6 class="card-number-title">John Doe</h6>
+            <img
+              src="./assets/mastercard.png"
+              alt="mastercard"
+              class="mastercard"
+            />
+          </div>
+        </div>
+        <div class="card-details">
+          <div class="images">
+            <img src="./assets/visacard.png" alt="visacard" class="visacard" />
+          <img src="./assets/paypal.png" alt="paypal" class="paypal" />
+          </div>
+          <div class="grid-container">
+            <div class="grid-item grid-item1">
+              <label for="ccnum">Credit Card Number</label><br />
+              <input
+                type="text"
+                id="ccnum"
+                name="ccnum"
+                value="4324 5433 9382 1030"
+              /><br />
+            </div>
+            <div class="grid-item gird-item2">
+              <label for="exdate">Expiration Date</label><br />
+              <input type="text" id="exdate" name="exdate"  value="03/24"/><br />
+            </div>
+            <div class="grid-item grid-item3">
+              <label for="ccnum">Security Code</label><br />
+              <input
+                type="text"
+                id="ccnum"
+                name="ccnum"
+                value="420"
+              /><br />
+            </div>
+            <div class="grid-item grid-item4">
+              <label for="ccnum">Postal Code</label><br />
+              <input
+                type="text"
+                id="ccnum"
+                name="ccnum"
+                value="10119"
+              /><br />
+            </div>
+          </div>
+          <p>Use this card for next time purchase</p>
+          <button class="btn">Add Card</button>
+        </div>
+      </div>
+      <hr />
+      <div class="section-2">
+          <div>
+            <h2>Subtotal</h2>
+            <h2>Estimated Tax</h2>
+            <h2>Promotional Code: <span class="gray-info">Z4KXLM9A</span></h2>
+          </div>
+          <div>
+            <h2>#2,497.00</h2>
+            <h2>#119.64</h2>
+            <h2>#-60.00</h2>
+          </div>
+      </div>
+      <hr />
+      <div class="section-3">
+        <button class="btn2">Complete Payment</button>
+        <h1 class="total">TOTAL: #2556.64</h1>
+      </div>
+    </div>
+  </body>
+</html>
